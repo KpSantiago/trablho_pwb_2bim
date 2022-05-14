@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Planilhas de cálculos</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" class="CodesTitle">Código</th>
+                <th scope="col" class="desc">Descrição</th>
+                <th scope="col">Valor</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <th col="col" class="title" colspan="3">RECEITAS</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">1</th>
+                    <td>Valor Base(R$)</td>
+                    <td class="inputArea"><input type="number" id="inputVbase" form="btns"></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">2</th>
+                    <td>Ajuda com transporte(R$)</td>
+                    <td class="inputArea"><input type="number" id="inputTransporte" form="btns"></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">3</th>
+                    <td>Ajuda alimentação(R$)</td>
+                    <td class="inputArea"><input type="number" id="inputAlimentacao" form="btns"></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">4</th>
+                    <th>Receita total(R$)</th>
+                    <th class="inputArea"><input type="text" form="btns" id="rTotal" disabled></th>
+                </tr>
+                <tr>
+                    <th col="col" class="title" colspan="3">DESCONTOS</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">5</th>
+                    <td>Desconto de automóvel(R$)</td>
+                    <td class="inputArea"><input type="number" form="btns" id="dAutomovel"></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">6</th>
+                    <td>Faltas(R$)</td>
+                    <td class="inputArea"><input type="number" form="btns" id="faltas"></td>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">7</th>
+                    <th>Desconto Total(R$)</th>
+                    <td class="inputArea"><input type="text" form="btns" id="dTotal" disabled></td>
+                </tr>
+                <tr>
+                    <th col="col" class="title" colspan="3">TOTAL</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="codigo">8</th>
+                    <th>Total(R$)</th>
+                    <td class="inputArea"><input type="text" form="btns" id="total" disabled></td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <form id="btns" action="">
+        <button type="submit" id="calcular">Calcular</button>
+        <button type="reset" id="limpar">Limpar</button>
+    </form>
+    <ul>
+      <li>Ana Julia</li>
+      <li>Kauã Santiago</li>
+    </ul>
+    <script src="js/index.js"></script>
+</body>
+</html>

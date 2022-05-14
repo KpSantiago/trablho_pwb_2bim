@@ -1,0 +1,61 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+h1{
+  margin: 0;
+}
+table{
+    max-width: 500px;
+    background: rgb(100, 100, 100);
+    background-size: cover;
+    color: white;
+}
+table, th, td{
+    border: 1px solid black;
+}
+tr{
+    width: 400px;
+}
+.inputArea:hover{
+     background-color: hsl(30, 70%, 50%);
+}
+input{
+    width: 120px;
+    margin: 2px 10px 2px 10px;
+}
+.codigo{
+    padding: 0px 15px 0px 15px;
+}
+th, td{
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: center;
+    text-align: center;
+}
+.title{
+    margin: 5px 0  5px 0;
+}
+.CodesTitle{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+button{
+    margin: 15px;
+    padding: 5px 20px 5px 20px;
+}
+#calcular{
+    background-color: hsl(100, 70%, 50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+#limpar{
+    background-color: hsl(0, 80%, 50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
